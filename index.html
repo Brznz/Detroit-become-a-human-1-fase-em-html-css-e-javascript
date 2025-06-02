@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detroit: Become a Human</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo--1">
+            <h1>Detroit Become a Human</h1>
+            <p>Você quer começar a jogar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="0">começar</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-0">
+            <p class="texto">Você é um androide que se chama Connor e é designado para uma missão de homicídio envolvendo androides e humanos. A missão é em um apartamento luxuoso onde você vê uma mulher desesperada, pois sua filha foi mantida refém pelo androide da família.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="58">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-58">
+            <p>Você vê um peixe no chão. Quer colocá-lo de volta no aquário?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="1">Sim</button>
+                <button class="btn-proximo" data-proximo="2">Não</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-1">
+            <h1 class="texto consequencia positiva">Esta ação poderá ter consequências.</h1>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="3">Continuar</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-2">
+            <h1 class="texto consequencia negativa">Esta ação poderá ter consequências.</h1>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="3">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p class="texto">Você vê um quadro de família. Decide analisá-lo?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="4">Analisar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você descobriu o nome da</p>
+            <p>Mãe: Coraline Phillips</p>
+            <p>Pai: John Phillips</p>
+            <p>Filha: Emma Philips.</p>
+            <p>Você vê o capitão. Deseja falar com ele?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="5">Sim</button>
+                <button class="btn-proximo" data-proximo="11">Não</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O que você pergunta ao capitão?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="6">Nome do divergente</button>
+                <button class="btn-proximo" data-proximo="7">Comportamento do divergente</button>
+                <button class="btn-proximo" data-proximo="8">Choque emocional</button>
+                <button class="btn-proximo" data-proximo="9">Código de desativação</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Capitão: E eu sei lá? Isso importa?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="10">Comportamento do divergente</button>
+                <button class="btn-proximo" data-proximo="10">Choque emocional</button>
+                <button class="btn-proximo" data-proximo="10">Código de desativação</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Capitão: E eu sei lá? Isso importa?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="10">Nome do divergente</button>
+                <button class="btn-proximo" data-proximo="10">Choque emocional</button>
+                <button class="btn-proximo" data-proximo="10">Código de desativação</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Capitão: E eu sei lá? Isso importa?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="10">Nome do divergente</button>
+                <button class="btn-proximo" data-proximo="10">Comportamento do divergente</button>
+                <button class="btn-proximo" data-proximo="10">Código de desativação</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Capitão: E eu sei lá? Isso importa?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="10">Nome do divergente</button>
+                <button class="btn-proximo" data-proximo="10">Comportamento do divergente</button>
+                <button class="btn-proximo" data-proximo="10">Choque emocional</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Capitão: Olha só,</p>
+            <p>Capitão: o que importa é salvar a menina.</p>
+            <p>Capitão: Ou você dá um jeito nessa porra de androide,</p>
+            <p>Capitão: ou eu vou dar.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="11">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você decide começar a investigar. Você começa pelo quarto do pai e vê uma maleta de arma. Você quer investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="12">Sim</button>
+                <button class="btn-proximo" data-proximo="13">Não</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você descobre que a arma que o divergente está usando é uma MS835 Black Hawk (pistola).</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="13">Próximo</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="14">Sala</button>
+                <button class="btn-proximo" data-proximo="21">Quarto da Emma</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Você analisa a sala e nota que há um homem morto, um tablet com a tela quebrada e ensanguentado no chão. Qual você investiga primeiro?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="15">Tablet</button>
+                <button class="btn-proximo" data-proximo="17">Homem</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Após desbloquear o tablet, você nota que há uma ordem de compra de um novo androide. Qual a próxima coisa que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="16">Homem</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Após analisar o homem morto, você descobre que ele foi morto por trás e tomou 3 tiros. Qual a próxima coisa que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="19">Quarto da Emma</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Após analisar o homem morto, você descobre que ele foi morto por trás e tomou 3 tiros. Qual a próxima coisa que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="18">Tablet</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <p>Após desbloquear o tablet, você nota que há uma ordem de compra de um novo androide. Qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="19">Quarto da Emma</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <p>Você encontra o tablet da Emma e um fone tocando música alta.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="20">Analisar o tablet</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <p>Você encontra um vídeo da Emma e o divergente juntos, e descobre que o nome do divergente é Daniel, qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="29">Cozinha</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <p>Você encontra o tablet da Emma e um fone tocando música alta.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="22">Analisar o tablet</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-22">
+            <p>Você encontra um vídeo da Emma e o divergente juntos, e descobre que o nome do divergente é Daniel.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="23">Continuar</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-23">
+            <p>Qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="24">Sala</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-24">
+            <p>Você analisa a sala e nota que há um homem morto, um tablet com a tela quebrada e ensanguentado no chão. Qual você investiga primeiro?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="25">Tablet</button>
+                <button class="btn-proximo" data-proximo="27">Homem</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-25">
+            <p>Após desbloquear o tablet, você nota que há uma ordem de compra de um novo androide. Qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="26">Homem</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-26">
+            <p>Após analisar o homem morto, você descobre que ele foi morto por trás e tomou 3 tiros. Qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="29">Cozinha</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-27">
+            <p>Após desbloquear o tablet, você nota que há uma ordem de compra de um novo androide. Qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="28">Homem</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-28">
+            <p>Após analisar o homem morto, você descobre que ele foi morto por trás e tomou 3 tiros. Qual o próximo lugar que você vai investigar?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="29">Cozinha</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-29">
+            <p>Você encontra a arma do policial que chegou antes ao local, foi baleado e morto. Deseja pegá-la?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="43">Sim</button>
+                <button class="btn-proximo" data-proximo="30">Não</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-30">
+            <p>Após analisar tudo, você vai confrontar o divergente.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="31">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-31">
+            <p>Você encontra o Daniel na varanda/área de lazer da casa com a Emma de refém e um policial baleado. Qual sua abordagem?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="32">Analisar o policial</button>
+                <button class="btn-proximo" data-proximo="23">Tranquilizar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-32">
+            <p>Você analisa o policial e vê que ele foi baleado e provavelmente irá morrer se não fizerem um torniquete nele.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="35">Ignorar</button>
+                <button class="btn-proximo" data-proximo="33">Salvar o policial</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-33">
+            <p>Você toma um tiro de advertência do Daniel, e ele diz:</p>
+            <p>Daniel: "Todos os humanos vão morrer! Que diferença faz esse aí morrer agora?"</p>
+            <p>Daniel: "Não toque nele! Se você tocar, eu te mato!"</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="35">Sair</button>
+                <button class="btn-proximo" data-proximo="34">Salvar o policial</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-35">
+            <h1 consequencia negativa>Esta ação poderá ter consequências.</h1>
+            <p>Humano morto!</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="23">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-34">
+            <h1 consequencia positiva>Esta ação poderá ter consequências.</h1>
+            <p>Connor: Você não pode me matar, eu não estou vivo!</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="36">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-36">
+            <p>Você se levanta. Qual será sua abordagem?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="37">Tranquilizá-lo</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-37">
+            <p>O que você vai dizer?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="38">Possível causa</button>
+                <button class="btn-proximo" data-proximo="41">Você e a Emma</button>
+                <button class="btn-proximo" data-proximo="41">Oferecer ajuda</button>
+                <button class="btn-proximo" data-proximo="38">Com defeito</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-38">
+            <p>O Daniel ficou intimidado com o que você disse e está ameaçando se jogar de cima da varanda.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="39">Acalmá-lo</button>
+                <button class="btn-proximo" data-proximo="40">Sacrificar-se</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-41">
+            <p>Você conseguiu convencer o Daniel a se render!</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="42">Próximo</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-42">
+            <p>Mas, infelizmente, os snipers foram mais rápidos e o abateram antes do interrogatório.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="43">Próximo</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-43">
+            <h1 class="consequencia negativa">ADVERTÊNCIA: Androides são proibidos de portar armas.</h1>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="44">Pegar</button>
+                <button class="btn-proximo" data-proximo="30">Sair</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-44">
+            <p>Após analisar tudo, você vai confrontar o divergente.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="46">Continuar</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-46">
+            <p>Você encontra o Daniel na varanda/área de lazer da casa com a Emma de refém e um policial baleado. Qual sua abordagem?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="47">Analisar o policial</button>
+                <button class="btn-proximo" data-proximo="52">Tranquilizar</button>
+                <button class="btn-proximo" data-proximo="55">Tiro rápido</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-47">
+            <p>Você analisa o policial e vê que ele foi baleado e provavelmente irá morrer se não fizerem um torniquete nele.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="50">Ignorar</button>
+                <button class="btn-proximo" data-proximo="48">Salvar o policial</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-48">
+            <p>Connor: "ele vai morrer se eu nao fizer um torniquete!"</p>
+            <p>Você toma um tiro de advertência do Daniel, e ele diz:</p>
+            <p>Daniel: "Todos os humanos vão morrer! Que diferença faz esse aí morrer agora?"</p>
+            <p>Daniel: "Não toque nele! Se você tocar, eu te mato!"</p>
+
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="57">Sair</button>
+                <button class="btn-proximo" data-proximo="49">Salvar o policial</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-57">
+            <p>Connor: "ok"</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="50">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-50">
+            <h1 consequencia negativa>Esta ação poderá ter consequências.</h1>
+            <h2 class="consequencia negativa">Opinião pública -</h2>
+            <p>Humano morto!</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="51">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-49">
+            <h1 class="consequencia positiva">Esta ação poderá ter consequências.</h1>
+            <h2 class="consequencia positiva">Opinião pública +</h2>
+            <p>Connor: "Você não pode me matar, eu não estou vivo!"</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="51">Continuar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-51">
+            <p>Você se levanta. Qual será sua abordagem?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="52">Tranquilizá-lo</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-52">
+            <p>O que você vai dizer?</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="53">Possível causa</button>
+                <button class="btn-proximo" data-proximo="54">Você e a Emma</button>
+                <button class="btn-proximo" data-proximo="54">Oferecer ajuda</button>
+                <button class="btn-proximo" data-proximo="53">Com defeito</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-53">
+            <p>O Daniel ficou intimidado com o que você disse e está ameaçando se jogar de cima da varanda.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="39">Acalmá-lo</button>
+                <button class="btn-proximo" data-proximo="40">Sacrificar-se</button>
+                <button class="btn-proximo" data-proximo="55">Tiro rápido</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-54">
+            <p>Você conseguiu convencer o Daniel a se render!</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="56">Próximo</button>>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-56">
+            <p>Mas, infelizmente, os snipers foram mais rápidos e o abateram antes do interrogatório.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="43">Próximo</button>>
+            </div>
+        </div>
+
+
+
+        <div class="passo" id="passo-55">
+            <h1 class="consequencia positiva">Final bom!</h1>
+            <h2 class="consequencia positiva">Opinião pública +</h2>
+            <p>Final bom! Você conseguiu dar um tiro antes que o Daniel se jogasse com a Emma. Parabéns!</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="0">Recomeçar?</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-43">
+            <h1 class="consequencia positiva">Final bom!</h1>
+            <h2 class="consequencia positiva">Opinião pública +</h2>
+            <p>Final bom! Você conseguiu abater o divergente antes que ele fizesse o mal! Parabéns!</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="0">Recomeçar?</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-40">
+            <h1 class="consequencia positiva">Final bom</h1>
+            <h2 class="consequencia positiva">Opinião pública +</h2>
+            <p>Final bom! Você conseguiu abater o divergente antes que ele fizesse o mal! Parabéns!</p>
+            <p>Mas, infelizmente, você teve que se sacrificar para o sucesso da missão.</p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="0">Recomeçar?</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-39">
+            <h1 class="consequencia negativa">Final ruim!</h1>
+            <h2 class="consequencia negativa">Você não conseguiu acalmar o Daniel!</h2>
+            <p>Final ruim! Você não conseguiu salvar a criança antes que o Daniel se matasse. Parabéns!</p>
+            <p></p>
+            <div class="botoes">
+                <button class="btn-proximo" data-proximo="0">Recomeçar?</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
